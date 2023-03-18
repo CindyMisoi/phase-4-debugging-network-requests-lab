@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  changed Toys to Toy in contoller#create method
 
 - Update the number of likes for a toy
+rendered json :toy for the number of likes to be updated on the frontend
 
   - How I debugged:
 
 - Donate a toy to Goodwill (and delete it from our database)
+added a destroy route in routes.rb
 
   - How I debugged:
